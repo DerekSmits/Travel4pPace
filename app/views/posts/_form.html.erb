@@ -11,16 +11,16 @@
     </div>
   <% end %>
 
-  <div class="actions">
+  <div class="mb-3 row">
   <%= form_with model: @post do |f| %>
     <p class="h3">Title</p>
     <%= f.text_field :title, :class => "form-control" %>
     <p class="h3">Desctiption</p>
     <%= f.text_area :desctiption, :class => "form-control" %>
     <p>Add photos</p>
-    <%= f.file_field :images, :class => "form-control" %>
+    <%= f.file_field :images, :class => "form-control", :type => "file" %>
     <br>
-    <%= form.submit %>
+    <%= form.submit :class => "form-control" %>
     <% end %>
   </div>
 <% end %>
