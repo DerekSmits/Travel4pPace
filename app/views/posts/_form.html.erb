@@ -12,6 +12,15 @@
   <% end %>
 
   <div class="actions">
+  <%= form_with model: @post do |f| %>
+    <p class="h3">Title</p>
+    <%= f.text_field :title, :class => "form-control" %>
+    <p class="h3">Desctiption</p>
+    <%= f.text_area :desctiption, :class => "form-control" %>
+    <p>Add photos</p>
+    <%= f.file_field :images, :class => "form-control" %>
+    <br>
     <%= form.submit %>
+    <% end %>
   </div>
 <% end %>
