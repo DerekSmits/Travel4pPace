@@ -20,7 +20,10 @@
         <div class="cart-text">
           <%= post.shorts%>
         </div>
+        <%if can? :read, post %>
         <%= link_to "Show", post, class: "btn btn-primary"%>
+        <%# Make bug after current user %>
+        <% end %>
       </div>
     </div>
       <tr>
