@@ -6,6 +6,7 @@ class User < ApplicationRecord
   after_create :assign_default_role
   has_many :posts, foreign_key: :author_id
   has_many :roles, foreign_key: :id
+  has_many :comments, foreign_key: :author_id
   rolify
 
   def assign_default_role
