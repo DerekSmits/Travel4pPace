@@ -12,9 +12,7 @@
   <tbody>
     <% @post.comments.each do |comment| %>
       <tr>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_post_comment(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <%= comment.com_text%>
       </tr>
     <% end %>
   </tbody>

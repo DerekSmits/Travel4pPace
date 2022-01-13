@@ -9,10 +9,12 @@ class CommentsController < ApplicationController
 
   # GET /comments/1 or /comments/1.json
   def show
+    @post = Post.find(params[:post_id])
   end
 
   # GET /comments/new
   def new
+    @post = Post.find(params[:post_id])
     @comment = Comment.new(post_id: params[:post_id])
   end
 
@@ -22,17 +24,9 @@ class CommentsController < ApplicationController
 
   # POST /comments or /comments.json
   def create
-    @comment = Comment.new(comment_params)
-
-    respond_to do |format|
-      if @comment.save
-        format.html { redirect_to comment_url(@comment), notice: "Comment was successfully created." }
-        format.json { render :show, status: :created, location: @comment }
-      else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @comment.errors, status: :unprocessable_entity }
-      end
-    end
+    @post = Post.find(params[:post_id])
+    @comment = @post.comments.create(comment_params)
+    redirect_to post_comments_url
   end
 
   # PATCH/PUT /comments/1 or /comments/1.json
@@ -50,7 +44,8 @@ class CommentsController < ApplicationController
 
   # DELETE /comments/1 or /comments/1.json
   def destroy
-    @comment.destroy
+    @post = Post.find(params[:post_id])
+    @post.comments.destroy
 
     respond_to do |format|
       format.html { redirect_to comments_url, notice: "Comment was successfully destroyed." }
@@ -66,6 +61,6 @@ class CommentsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def comment_params
-      param.require(:comment).permit(:com_text,:post_id)
+      params.require(:comment).permit(:com_text,:post_id)
     end
 end

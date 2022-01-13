@@ -1,6 +1,6 @@
 
   <div class="actions">
-  <%= form_with model: comment do |f| %>
+  <%= simple_form_for([@post, @post.comments.build]) do |f| %>
     <div class="h4">
     <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
     <div id ="staticEmail" type="text" readonly class="form-control-plaintext" ><%= current_user.email%></div>
@@ -8,6 +8,6 @@
     <label for="desc" class="h4">Comment</label>
     <%= f.text_area :com_text, class: "form-control", id: "desc" %>
     <br>
-    <%= form.submit class: "btn btn-primary", type: "button" %>
+    <%= f.button :submit,  class: "btn btn-primary" %>
   <% end %>
   </div>
