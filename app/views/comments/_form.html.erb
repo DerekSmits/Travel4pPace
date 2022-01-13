@@ -1,6 +1,6 @@
 
   <div class="actions">
-  <%= form_with model: post.comment do |f| %>
+  <%= form_with model: comment do |f| %>
     <div class="h4">
     <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
     <div id ="staticEmail" type="text" readonly class="form-control-plaintext" ><%= current_user.email%></div>
