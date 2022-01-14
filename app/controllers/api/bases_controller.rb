@@ -21,40 +21,17 @@ class BasesController < ApplicationController
 
   # POST /bases or /bases.json
   def create
-    @basis = Base.new(basis_params)
-
-    respond_to do |format|
-      if @basis.save
-        format.html { redirect_to basis_url(@basis), notice: "Base was successfully created." }
-        format.json { render :show, status: :created, location: @basis }
-      else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @basis.errors, status: :unprocessable_entity }
-      end
-    end
+    @basis = Base.create!(basis_params)
   end
 
   # PATCH/PUT /bases/1 or /bases/1.json
   def update
-    respond_to do |format|
-      if @basis.update(basis_params)
-        format.html { redirect_to basis_url(@basis), notice: "Base was successfully updated." }
-        format.json { render :show, status: :ok, location: @basis }
-      else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @basis.errors, status: :unprocessable_entity }
-      end
-    end
+    @basis.update!(basis_params)
   end
 
   # DELETE /bases/1 or /bases/1.json
   def destroy
     @basis.destroy
-
-    respond_to do |format|
-      format.html { redirect_to bases_url, notice: "Base was successfully destroyed." }
-      format.json { head :no_content }
-    end
   end
 
   private
