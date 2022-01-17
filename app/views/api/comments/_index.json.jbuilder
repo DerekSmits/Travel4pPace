@@ -1,5 +1,5 @@
 # json.array! @comments, partial: "comments/comment", as: :comment
-json.array! post.comments do |comment|
+json.array! comments do |comment|
     json.id comment.id
     json.author_id comment.author_id
     json.post_id comment.post_id
