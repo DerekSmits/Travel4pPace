@@ -7,5 +7,5 @@ json.array! @posts do |post|
   json.shorts post.shorts
   json.created post.created_at
   json.updated post.updated_at
-  # json.comments 'api/comments/index', locals: { post: post }
+  json.comments partial: 'api/comments/index', locals: { comments: post.comments }
 end

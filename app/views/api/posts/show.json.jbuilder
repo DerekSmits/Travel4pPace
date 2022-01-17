@@ -7,4 +7,5 @@ json.post do
   json.shorts @post.shorts
   json.created @post.created_at
   json.updated @post.updated_at
+  json.comments partial: 'api/comments/index', locals: {comments: @post.comments}
 end
