@@ -10,5 +10,15 @@ Rails.application.routes.draw do
   namespace 'api' do
     resources :posts, defaults: {format: 'json'}
     resources :comments
+    devise_for :users,
+               path_names: {
+                 sign_in: 'login',
+                 sign_out: 'logout',
+                 registration: 'signup'
+               },
+               controllers: {
+                 sessions: 'sessions',
+                 registrations: 'registrations'
+               }
   end
 end
