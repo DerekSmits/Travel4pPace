@@ -4,12 +4,11 @@
       "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/models/user_spec.rb": {
         "lines": [
           1,
-          0,
           null,
-          0,
-          0,
-          0,
-          0,
+          1,
+          2,
+          1,
+          1,
           null,
           null
         ]
@@ -21,9 +20,9 @@
           1,
           1,
           null,
-          0,
-          0,
-          0,
+          1,
+          1,
+          2,
           null,
           null,
           null,
@@ -44,27 +43,19 @@
           null,
           null,
           null,
-          0,
-          null,
-          0,
-          0,
+          1,
           null,
           0,
-          null,
           0,
           null,
+          1,
           null,
-          null,
-          null,
-          0,
-          null,
-          null,
-          null,
+          1,
           null,
           null,
           null,
           null,
-          null,
+          1,
           null,
           null,
           null,
@@ -74,10 +65,18 @@
           null,
           null,
           null,
-          0,
           null,
           null,
-          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
           null,
           null,
           null
@@ -855,18 +854,122 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/factories.rb": {
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/factories/users.rb": {
         "lines": [
           1,
-          0,
-          0,
-          0,
-          0,
+          1,
+          2,
+          2,
           null,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/config/routes.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/helpers/bases_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/helpers/comments_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/helpers/post_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/helpers/posts_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/helpers/users_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/models/role.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1642435042
+    "timestamp": 1642499838
   }
 }
