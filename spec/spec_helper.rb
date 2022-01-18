@@ -12,7 +12,6 @@
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
-require 'factory_bot'
 require 'simplecov'
 SimpleCov.start
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
