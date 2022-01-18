@@ -1,6 +1,7 @@
+require 'faker'
 FactoryBot.define do
     factory :user do
-      email {"test@test.com"}
-      password {"test123456"}
+      email {Faker::Internet.email}
+      password {Faker::Internet.password}
   end
 end
