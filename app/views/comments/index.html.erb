@@ -11,9 +11,8 @@
 
   <tbody>
     <% @post.comments.each do |comment| %>
-      <tr>
-      <%= comment.com_text%>
-      </tr>
+      <br>
+     <p class="text-start h4"><%= comment.com_text%></p>
     <% end %>
   </tbody>
 </table>
