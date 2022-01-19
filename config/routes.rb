@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   namespace 'api' do
     resources :posts, defaults: {format: 'json'}
     resources :comments
+    resources :health
   end
 end
