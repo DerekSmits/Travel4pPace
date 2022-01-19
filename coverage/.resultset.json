@@ -6,7 +6,10 @@
           1,
           null,
           1,
-          2,
+          3,
+          1,
+          1,
+          null,
           1,
           1,
           null,
@@ -854,13 +857,26 @@
           null
         ]
       },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/factories/posts.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/factories/users.rb": {
         "lines": [
           1,
           1,
           1,
-          2,
-          2,
+          3,
+          3,
+          3,
           null,
           null
         ]
@@ -875,6 +891,7 @@
           1,
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -898,7 +915,7 @@
           1,
           1,
           1,
-          1,
+          2,
           null,
           null
         ]
@@ -953,6 +970,19 @@
           null
         ]
       },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/spec/request/health_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/models/role.rb": {
         "lines": [
           1,
@@ -970,8 +1000,23 @@
           1,
           null
         ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/controllers/api/health_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/media/derek_smits/4894E8B994E8AB201/Ruby/Travel4Place/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1642508373
+    "timestamp": 1642514017
   }
 }
