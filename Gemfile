@@ -46,6 +46,7 @@ group :development, :test do
   gem 'simplecov', require: false
   gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   gem 'rubocop-rails', require: false
+  gem 'cucumber'
 end
 
 group :development do
