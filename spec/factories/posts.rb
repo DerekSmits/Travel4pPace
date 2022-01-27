@@ -3,6 +3,6 @@ FactoryBot.define do
         title {Faker::Book.title}
         describtion {Faker::Book.author}
         shorts {Faker::Book.genre}
-        user
+        author_id {create(:user).id}
     end
 end
