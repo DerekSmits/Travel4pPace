@@ -1040,6 +1040,20 @@
           null
         ]
       },
+      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/request/posts_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/models/role.rb": {
         "lines": [
           1,
@@ -1072,8 +1086,63 @@
           1,
           null
         ]
+      },
+      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/controllers/api/posts_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1643294032
+    "timestamp": 1643729255
   }
 }
