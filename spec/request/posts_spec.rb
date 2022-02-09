@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Posts", type: :request do
   let!(:post) {create(:post)}
+  let!(:post2) {create(:post)}
   describe "GET /api/posts" do
     it "return success code" do
       get '/api/posts'
@@ -12,9 +13,9 @@ RSpec.describe "Posts", type: :request do
         expect(response).to have_http_status(:ok)
     end
     it "contain information in JSON" do
-      get "/api/posts/1"
-      byebug
-      expect(JSON.parse(response.body)["posts"]).to eq(JSON.parse(post.to_json))
+      get "/api/posts"
+      posts = Post.all
+      expect(JSON.parse(response.body)).to eq(JSON.parse(posts.to_json))
     end
   end
   # describe "POST /api/posts" do
