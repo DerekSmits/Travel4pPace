@@ -17,15 +17,4 @@ RSpec.describe "Posts", type: :request do
       expect(JSON.parse(response.body)).to eq(JSON.parse(posts.to_json))
     end
   end
-  # describe "POST /api/posts" do
-    # let!(:params) do
-      # {
-        # id: 1, title: "test", describtion: "desc", author_id: 1, shorts: "Short"
-      # }
-    # end
-    # it "create new post" do
-      # post "/api/posts", params: params.to_json, headers: headers
-      # byebug
-    # end
-  # end
 end
