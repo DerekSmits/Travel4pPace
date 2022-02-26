@@ -10,16 +10,13 @@
   </thead>
 
   <tbody>
-    <% @comments.each do |comment| %>
-      <tr>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+    <% @post.comments.each do |comment| %>
+      <br>
+     <p class="text-start h4"><%= comment.com_text%></p>
     <% end %>
   </tbody>
 </table>
 
 <br>
 
-<%= link_to 'New Comment', new_comment_path %>
+<%= link_to 'New Comment', new_post_comment_url %>
