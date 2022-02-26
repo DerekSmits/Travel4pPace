@@ -10,8 +10,8 @@ default: &default
   timeout: 5000
   encoding: unicode
   database: travel
-  username: dev
-  password: 1111
+  username: travel
+  password: 1234
   host: localhost
 
 

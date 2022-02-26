@@ -35,6 +35,7 @@ gem 'jquery-rails'
 gem 'rails-ujs'
 gem 'sprockets', '~> 3.0'
 gem 'simple_form'
+gem 'rswag'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 

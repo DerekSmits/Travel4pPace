@@ -1,19 +1,54 @@
 {
   "RSpec": {
     "coverage": {
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/models/comment_spec.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/swagger_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
-          2,
-          1,
+          null,
+          null,
+          null,
           1,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/rails_helper.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -82,7 +117,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/environment.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -91,7 +126,7 @@
           1
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/application.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/application.rb": {
         "lines": [
           1,
           null,
@@ -117,7 +152,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/boot.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -125,7 +160,7 @@
           1
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/environments/test.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -189,7 +224,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/application_controller_renderer.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -201,7 +236,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/assets.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -219,7 +254,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/backtrace_silencers.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -231,7 +266,7 @@
           1
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/content_security_policy.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -265,7 +300,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/cookies_serializer.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -274,7 +309,7 @@
           1
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/devise.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/devise.rb": {
         "lines": [
           null,
           null,
@@ -589,7 +624,7 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/filter_parameter_logging.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -599,229 +634,12 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/inflections.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/mime_types.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/permissions_policy.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/rolify.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/simple_form.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
           null,
           null,
           null,
@@ -836,7 +654,260 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/initializers/wrap_parameters.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/mime_types.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/permissions_policy.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/rolify.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/rswag-ui.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/rswag_api.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/simple_form.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -854,51 +925,8 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/factories/comments.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/factories/comments.rb": {
         "lines": [
-          1,
-          1,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/factories/posts.rb": {
-        "lines": [
-          1,
-          1,
-          6,
-          6,
-          6,
-          6,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/factories/users.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          9,
-          9,
-          9,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/config/routes.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
           1,
           1,
           1,
@@ -908,128 +936,41 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/models/user.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          8,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/helpers/bases_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/helpers/comments_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/helpers/post_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/helpers/posts_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/helpers/users_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/support/factory_bot.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/models/comment.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/factories/posts.rb": {
         "lines": [
           1,
           1,
           1,
           1,
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/models/post_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          2,
           1,
           1,
           null,
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/models/post.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/factories/users.rb": {
         "lines": [
           1,
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/models/user_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          3,
-          1,
-          1,
-          null,
           1,
           1,
           null,
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/request/health_request_spec.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/config/routes.rb": {
         "lines": [
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           1,
           1,
@@ -1040,130 +981,125 @@
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/spec/request/posts_spec.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/models/user.rb": {
         "lines": [
           1,
           null,
+          null,
           1,
-          4,
+          null,
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/helpers/bases_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/helpers/comments_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/helpers/post_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/helpers/posts_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/app/helpers/users_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/requests/api/health_request_spec.rb": {
+        "lines": [
           1,
           null,
           1,
           1,
           0,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          0,
+          0,
           null,
           null
         ]
       },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/models/role.rb": {
+      "/home/derek_smits/RubymineProjects/Travel4pPace/spec/requests/api/posts_spec.rb": {
         "lines": [
           1,
-          1,
           null,
           1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/controllers/api/health_controller.rb": {
-        "lines": [
           1,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/media/derek_smits/4894E8B994E8AB202/Ruby/Travel4Place/app/controllers/api/posts_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
+          0,
+          0,
           null,
           1,
-          2,
-          2,
-          4,
-          null,
-          null,
-          null,
+          0,
+          0,
           null,
           1,
+          0,
+          0,
           0,
           null,
           null,
           null,
-          1,
-          0,
           null,
           null,
           null,
-          1,
           null,
           null,
           null,
-          1,
-          0,
           null,
           null,
           null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1645087263
+    "timestamp": 1645862173
   }
 }
